@@ -1,0 +1,14 @@
+{
+    "name": "Notes Clipper",
+    "version": "0.1.0",
+    "description": "Take notes from anywhere",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting", "storage", "host"],
+    "action": {
+        "default_popup": "pop-up.html"
+    },
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "host_permissions": ["<all_urls>"]
+}
