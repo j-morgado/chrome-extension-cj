@@ -10,5 +10,11 @@
     "background": {
         "service_worker": "service-worker.js"
     },
-    "host_permissions": ["<all_urls>"]
+    "host_permissions": ["<all_urls>"],
+    "commands": {
+        "clip": {
+            "suggested_key": "Ctrl+Shift+Y",
+            "description": "Inject a script on the page"
+        }
+    }
 }
