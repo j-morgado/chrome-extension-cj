@@ -13,7 +13,7 @@
     "host_permissions": ["<all_urls>"],
     "commands": {
         "clip": {
-            "suggested_key": "Ctrl+Shift+Y",
+            "suggested_key": "Ctrl+Shift+E",
             "description": "Inject a script on the page"
         }
     }

@@ -1,5 +1,52 @@
-body{
+body {
     font-family: sans-serif;
-    min-width: 200px;
+    min-width: 300px;
     min-height: 300px;
+    background-color: rgb(242, 242, 242);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.clip {
+    background-color: rgb(54, 109, 151);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+}
+
+h1 {
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(83, 157, 197);
+}
+
+div{
+    width: 100%;
+}
+
+#btnGroup{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+button{
+    padding: 10px 30px;
+    font-size: large;
+    border-radius: 15px;
+    border:none;
+    background-color: rgb(98, 144, 179);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(159, 199, 230);
+}
+
+
